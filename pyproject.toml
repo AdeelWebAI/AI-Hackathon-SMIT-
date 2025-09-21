@@ -1,0 +1,18 @@
+[project]
+name = "a-i-final-hackathon-smit"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi[standard]>=0.117.1",
+    "google-generativeai>=0.8.5",
+    "langchain-google-genai>=2.0.10",
+    "langchain-openai>=0.3.33",
+    "langgraph>=0.6.7",
+    "motor>=3.7.1",
+    "pydantic>=2.11.9",
+    "pymongo[srv]>=4.15.1",
+    "python-dotenv>=1.1.1",
+    "uvicorn>=0.36.0",
+]
